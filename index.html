@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			div {
+				background: #cccccc ;
+				border: 1px solid #000000 ;
+				border-radius: 5px ;
+				padding: 10px ;
+			}
+		</style>
+		<script type="text/javascript" src="/scripts/jquery-2.1.4.min.js"></script>
+		<script>
+			function getProperty() {
+				var id = $('#txtID').first().val() ;
+				var key = $('#txtKey').first().val() ;
+				var url = "http://localhost:8001/properties?id=" + id + "&cmd=get&key=" + key ;
+				$.get(url, function(data, status){
+					//alert("Data: " + data + "\nStatus: " + status);
+					var value = '' ;
+					var params = data.split(',') ;
+					for (i=0; i<params.length; i++) {
+						var items = params[i].split(':');
+						if (items[0] == " VALUE") value = items[1] ;
+					}
+					$('#txtValue').val(value) ;
+				});
+			}
+			function setProperty() {
+				var id = $('#txtID').first().val() ;
+				var key = $('#txtKey').first().val() ;
+				var value = $('#txtValue').first().val() ;
+
+				var url = "http://localhost:8001/properties?id=" + id + "&cmd=set&key=" + key + "&value=" + value ;
+				$.get(url, function(data, status) {
+					alert(data) ;
+				}) ;
+				
+			}
+			function dumpProperty() {
+				var url = "http://localhost:8001/properties?cmd=dump" ;
+				$.get(url, function(data, status) {
+					$('#dump').html(data.replace(/\n/g, '<br/>')) ;
+				}) ;
+				
+			}
+		</script>
+	</head>
+	<body>
+		<h1>My Node Server</h1>
+		<p>Welcome to my Node JS Server</p>
+		
+		<div>
+			<form>
+				ID <input type="text" id="txtID"/><br/>
+				Key <input type="text" id="txtKey"/><br/>
+				Value <input type="text" id="txtValue"/><br/>
+				<input type="button" id="btnGet" value="Get" onClick="getProperty() ;"/>
+				<input type="button" id="btnSet" value="Set" onClick="setProperty() ;"/>
+			</form>
+		</div>
+		<h3>Dump <input type="button" value="dump" onClick="javascript: dumpProperty() ;"/></h3>
+		<div id="dump" style="overflow: auto ; height: 200px ;">
+			
+		</div>
+		
+	</body>
+</html>
