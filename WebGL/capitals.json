@@ -1,0 +1,50 @@
+{ "state": "Alabama",        "capital": "Montgomery",     "pos": [32.380120, -86.300629], "pop": 205764}
+{ "state": "Alaska",         "capital": "Juneau",         "pos": [58.299740,-134.406794], "pop": 31275}
+{ "state": "Arizona",        "capital": "Phoenix",        "pos": [33.448260,-112.075774], "pop": 1445632}
+{ "state": "Arkansas",       "capital": "Little Rock",    "pos": [34.748655, -92.274494], "pop": 193524}
+{ "state": "California",     "capital": "Sacramento",     "pos": [38.579065,-121.491014], "pop": 466488}
+{ "state": "Colorado",       "capital": "Denver",         "pos": [39.740010,-104.992259], "pop": 600158}
+{ "state": "Connecticut",    "capital": "Hartford",       "pos": [41.763325, -72.674069], "pop": 124775}
+{ "state": "Delaware",       "capital": "Dover",          "pos": [39.158035, -75.524734], "pop": 36047}
+{ "state": "Florida",        "capital": "Tallahassee",    "pos": [30.439775, -84.280649], "pop": 181376}
+{ "state": "Georgia",        "capital": "Atlanta",        "pos": [33.748315, -84.391109], "pop": 420003}
+{ "state": "Hawaii",         "capital": "Honolulu",       "pos": [21.304770,-157.857614], "pop": 337256}
+{ "state": "Idaho",          "capital": "Boise",          "pos": [43.606980,-116.193409], "pop": 205671}
+{ "state": "Illinois",       "capital": "Springfield",    "pos": [39.801055, -89.643604], "pop": 116250}
+{ "state": "Indiana",        "capital": "Indianapolis",   "pos": [39.766910, -86.149964], "pop": 820445}
+{ "state": "Iowa",           "capital": "Des Moines",     "pos": [41.589790, -93.615659], "pop": 203433}
+{ "state": "Kansas",         "capital": "Topeka",         "pos": [39.049285, -95.671184], "pop": 127473}
+{ "state": "Kentucky",       "capital": "Frankfort",      "pos": [38.195070, -84.878694], "pop": 25527}
+{ "state": "Louisiana",      "capital": "Baton Rouge",    "pos": [30.443345, -91.186994], "pop": 229493}
+{ "state": "Maine",          "capital": "Augusta",        "pos": [44.318036, -69.776218], "pop": 19136}
+{ "state": "Maryland",       "capital": "Annapolis",      "pos": [38.976700, -76.489934], "pop": 38394}
+{ "state": "Massachusetts",  "capital": "Boston",         "pos": [42.358635, -71.056699], "pop": 617594}
+{ "state": "Michigan",       "capital": "Lansing",        "pos": [42.731940, -84.552249], "pop": 114297}
+{ "state": "Minnesota",      "capital": "Saint Paul",     "pos": [44.943829, -93.093326], "pop": 285068}
+{ "state": "Mississippi",    "capital": "Jackson",        "pos": [32.298690, -90.180489], "pop": 173514}
+{ "state": "Missouri",       "capital": "Jefferson City", "pos": [38.577515, -92.177839], "pop": 43079}
+{ "state": "Montana",        "capital": "Helana",         "pos": [46.589760,-112.021202], "pop": 28190}
+{ "state": "Nebraska",       "capital": "Lincoln",        "pos": [40.813620, -96.707739], "pop": 258379}
+{ "state": "Nevada",         "capital": "Carson City",    "pos": [39.164885,-119.766999], "pop": 55274}
+{ "state": "New Hampshire",  "capital": "Concord",        "pos": [43.207250, -71.536604], "pop": 42695}
+{ "state": "New Jersey",     "capital": "Trenton",        "pos": [40.217875, -74.759404], "pop": 84913}
+{ "state": "New Mexico",     "capital": "Santa Fe",       "pos": [35.691543,-105.937406], "pop": 67947}
+{ "state": "New York",       "capital": "Albany",         "pos": [42.651445, -73.755254], "pop": 97856}
+{ "state": "North Carolina", "capital": "Raleigh",        "pos": [35.785510, -78.642669], "pop": 403892}
+{ "state": "North Dakota",   "capital": "Bismarck",       "pos": [46.805372,-100.779334], "pop": 61272}
+{ "state": "Ohio",           "capital": "Columbus",       "pos": [39.961960, -83.002984], "pop": 787033}
+{ "state": "Oklahoma",       "capital": "Oklahoma City",  "pos": [35.472015, -97.520354], "pop": 579999}
+{ "state": "Oregon",         "capital": "Salem",          "pos": [44.933260,-123.043814], "pop": 154637}
+{ "state": "Pennsylvania",   "capital": "Harrisburg",     "pos": [40.259865, -76.882230], "pop": 49528}
+{ "state": "Rhode Island",   "capital": "Providence",     "pos": [41.823875, -71.411994], "pop": 178042}
+{ "state": "South Carolina", "capital": "Columbia",       "pos": [33.998550, -81.045249], "pop": 129272}
+{ "state": "South Dakota",   "capital": "Pierre",         "pos": [44.368924,-100.350158], "pop": 13646}
+{ "state": "Tennessee",      "capital": "Nashville",      "pos": [36.167783, -86.778365], "pop": 601222}
+{ "state": "Texas",          "capital": "Austin",         "pos": [30.267605, -97.742984], "pop": 790390}
+{ "state": "Utah",           "capital": "Salt Lake City", "pos": [40.759505,-111.888229], "pop": 186440}
+{ "state": "Vermont",        "capital": "Montpelier",     "pos": [44.260299, -72.576264], "pop": 7855}
+{ "state": "Virginia",       "capital": "Richmond",       "pos": [37.540700, -77.433654], "pop": 204214}
+{ "state": "Washington",     "capital": "Olympia",        "pos": [47.039231,-122.891366], "pop": 46478}
+{ "state": "West Virginia",  "capital": "Charleston",     "pos": [38.350195, -81.638989], "pop": 51400}
+{ "state": "Wisconsin",      "capital": "Madison",        "pos": [43.072950, -89.386694], "pop": 233209}
+{ "state": "Wyoming",        "capital": "Cheyenne",       "pos": [41.134815,-104.821544], "pop": 59466}
